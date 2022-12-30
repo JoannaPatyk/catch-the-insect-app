@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Catch the Insect Game</title>
+
+</head>
+
+<body>
+
+    <div class="screen start-container">
+        <h1>Catch The Insect</h1>
+        <button class="btn" id="start-btn">
+            <p>play game</p>
+            <span>&#127918</span>
+        </button>
+    </div>
+
+    <div class="screen choose-container">
+        <h1>Whats is your "favorite" insect? <br> Choose one!</h1>
+
+        <ul class="insects-list">
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Honeybee</p>
+                    <img src="img/honeybee-42907_640.png" alt="Honeybee">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Butterfly</p>
+                    <img src="img/butterfly-6272189_640.png" alt="Butterfly">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Beetle</p>
+                    <img src="img/beetle-34372_640.png" alt="Beetle">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Spider</p>
+                    <img src="img/tarantula-5796573_640.png" alt="Spider">
+                </button>
+            </li>
+        </ul>
+
+        <div class="screen game-container">
+            <h3 id="time">Time: 00:00</h3>
+            <h3 id="score">Score: 0</h3>
+            <h5 id="message" class="message">Are you annoyed yet? <br> You are playing an impossible game :)</h5>
+        </div>
+    </div>
+
+    <script src="scriptCIT.js"></script>
+</body>
+
+</html>
